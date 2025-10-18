@@ -53,6 +53,7 @@ class TransaksiResource extends Resource
             'create' => CreateTransaksi::route('/create'),
             'view' => ViewTransaksi::route('/{record}'),
             'edit' => EditTransaksi::route('/{record}/edit'),
+            'buat-transaksi' => Pages\BuatTransaksi::route('/buat-transaksi'),
         ];
     }
 }
